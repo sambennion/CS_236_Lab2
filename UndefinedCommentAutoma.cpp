@@ -17,7 +17,7 @@ int UndefinedCommentAutoma::Start(const string &input) {
 }
 
 int UndefinedCommentAutoma::s1(const string &input){
-    while(input.at(inputRead) != '|' && input.at(inputRead+1) != '#' && inputRead < input.length()){
+    while(input.at(inputRead) != '|' && input.at(inputRead+1) != '#' && inputRead < (int)input.length()){
         if(input.at(inputRead) == '\n'){
             this->newLines++;
         }
@@ -25,7 +25,7 @@ int UndefinedCommentAutoma::s1(const string &input){
     }
     if (input.at(inputRead) == '|'){
         inputRead++;
-        if(inputRead == input.size()){
+        if(inputRead == (int)input.size()){
             return inputRead;
         }
         if(input.at(inputRead) == '#'){

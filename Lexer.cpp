@@ -9,7 +9,7 @@ void Lexer::Run(std::string input) {
     int lineNumber = 1;
     // While there are more characters to tokenize
 
-    while(input.size() > 0) {
+    while((int)input.size() > 0) {
         int maxRead = 0;
         Automaton* maxAutomaton = automata[0];
         // TODO: you need to handle whitespace inbetween tokens DONE
@@ -26,7 +26,7 @@ void Lexer::Run(std::string input) {
         }
         // Here is the "Parallel" part of the algorithm
         // Each automaton runs with the same input
-        for(int i = 0; i < automata.size(); i++) {
+        for(int i = 0; i < (int)automata.size(); i++) {
                 int inputRead = automata[i]->Start(input);
                 if (inputRead > maxRead) {
                     maxRead = inputRead;
@@ -57,8 +57,8 @@ void Lexer::Run(std::string input) {
 }
 
 void Lexer::printTokens() {
-    for(int i = 0; i < tokens.size(); i++){
+    for(int i = 0; i < (int)tokens.size(); i++){
         cout << tokens.at(i)->toString() << endl;
     }
-    cout << "Total Tokens = " << tokens.size() << endl;
+    cout << "Total Tokens = " << (int)tokens.size() << endl;
 }

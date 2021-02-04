@@ -20,7 +20,7 @@ int CommentAutoma::Start(const string &input) {
 int CommentAutoma::s0(const string &input) {
     while (input.at(inputRead) != '\n'){
         inputRead++;
-        if(inputRead == input.size()) {
+        if(inputRead == (int)input.size()) {
             return inputRead;
         }
     }
@@ -35,7 +35,7 @@ int CommentAutoma::s1(const string &input){
     }
     if (input.at(inputRead) == '|'){
         inputRead++;
-        if(inputRead == input.size()){
+        if(inputRead == (int)input.size()){
             return 0;
         }
         if(input.at(inputRead) == '#'){

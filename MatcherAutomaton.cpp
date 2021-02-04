@@ -14,7 +14,7 @@ int MatcherAutomaton::Start(const string &input) {
         }
     }
     if(isMatch){
-        inputRead = toMatch.size();
+        inputRead = (int)toMatch.size();
     }
     return inputRead;
 }

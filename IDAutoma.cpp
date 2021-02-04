@@ -17,7 +17,7 @@ int IDAutoma::s0(const string &input) {
     if((input.at(inputRead) >= 'a' && input.at(inputRead) <= 'z') || (input.at(inputRead) >= 'A' && input.at(inputRead) <= 'Z') ||
     (input.at(inputRead) >= '0' && input.at(inputRead) <= '9')){
         inputRead++;
-        if(inputRead == input.size()){
+        if(inputRead == (int)input.size()){
             return inputRead;
         }
         return s0(input);
