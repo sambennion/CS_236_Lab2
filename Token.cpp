@@ -5,7 +5,7 @@
 #include "Token.h"
 
 string Token::toString() {
-    return "(" + tokenToString(type) + ", " + data + ", " + to_string(lineNum) + ")";
+    return "(" + tokenToString(type) + ",\"" + data + "\"," + to_string(lineNum) + ")";
 }
 
 string Token::tokenToString(TokenType type) {
@@ -38,6 +38,12 @@ string Token::tokenToString(TokenType type) {
         case QUERIES:
             return "QUERIES";
             break;
+        case FACTS:
+            return "FACTS";
+            break;
+        case SCHEMES:
+            return "SCHEMES";
+            break;
         case ID:
             return "ID";
             break;
@@ -49,6 +55,9 @@ string Token::tokenToString(TokenType type) {
             break;
         case UNDEFINED:
             return "UNDEFINED";
+            break;
+        case enumEOF:
+            return "EOF";
             break;
         default:
             return "Uh Oh";

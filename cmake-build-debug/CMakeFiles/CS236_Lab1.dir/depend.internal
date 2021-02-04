@@ -6,22 +6,28 @@ CMakeFiles/CS236_Lab1.dir/Automaton.cpp.o
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Token.h
 CMakeFiles/CS236_Lab1.dir/CommentAutoma.cpp.o
+ /Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/CommentAutoma.cpp
  /Users/samuelbennion/CLionProjects/CS236_Lab1/CommentAutoma.h
+ /Users/samuelbennion/CLionProjects/CS236_Lab1/Token.h
 CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.o
  /Users/samuelbennion/CLionProjects/CS236_Lab1/EOFAutoma.cpp
  /Users/samuelbennion/CLionProjects/CS236_Lab1/EOFAutoma.h
 CMakeFiles/CS236_Lab1.dir/IDAutoma.cpp.o
+ /Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/IDAutoma.cpp
  /Users/samuelbennion/CLionProjects/CS236_Lab1/IDAutoma.h
+ /Users/samuelbennion/CLionProjects/CS236_Lab1/Token.h
 CMakeFiles/CS236_Lab1.dir/Lexer.cpp.o
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/CommentAutoma.h
+ /Users/samuelbennion/CLionProjects/CS236_Lab1/IDAutoma.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Lexer.cpp
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Lexer.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/MatcherAutomaton.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/StringAutoma.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Token.h
+ /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.h
 CMakeFiles/CS236_Lab1.dir/MatcherAutomaton.cpp.o
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/MatcherAutomaton.cpp
@@ -36,13 +42,17 @@ CMakeFiles/CS236_Lab1.dir/Token.cpp.o
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Token.cpp
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Token.h
 CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o
+ /Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.h
+ /Users/samuelbennion/CLionProjects/CS236_Lab1/Token.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.cpp
  /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.h
 CMakeFiles/CS236_Lab1.dir/main.cpp.o
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/CommentAutoma.h
+ /Users/samuelbennion/CLionProjects/CS236_Lab1/IDAutoma.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Lexer.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/MatcherAutomaton.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/StringAutoma.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/Token.h
+ /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.h
  /Users/samuelbennion/CLionProjects/CS236_Lab1/main.cpp

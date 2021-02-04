@@ -17,7 +17,12 @@ void Lexer::Run(std::string input) {
             if(input.at(0) == '\n'){
                 lineNumber++;
             }
-            input.erase(input.at(0));
+            input.erase(0,1);
+            if(!input.size()){
+                Token* newToken = new Token(enumEOF, "", lineNumber);
+                tokens.push_back(newToken);
+                return;
+            }
         }
         // Here is the "Parallel" part of the algorithm
         // Each automaton runs with the same input
@@ -44,10 +49,16 @@ void Lexer::Run(std::string input) {
         // Update ‘input‘ by removing characters read to create Token
         input.erase(0,maxRead);
     }
+    if(!input.size()){
+        Token* newToken = new Token(enumEOF, "", lineNumber);
+        tokens.push_back(newToken);
+        return;
+    }
 }
 
 void Lexer::printTokens() {
     for(int i = 0; i < tokens.size(); i++){
         cout << tokens.at(i)->toString() << endl;
     }
+    cout << "Total Tokens = " << tokens.size() << endl;
 }

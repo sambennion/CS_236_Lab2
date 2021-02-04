@@ -9,10 +9,12 @@
 class StringAutoma : public Automaton{
 
 public:
-    StringAutoma(TokenType type1, TokenType type) : Automaton(type1) { this->type = type;};
+    explicit StringAutoma(TokenType type) : Automaton(type) { this->type = type;};
     int Start(const string &input);
 
     int s0(const string &input);
+
+    bool isDoubleQuote(const string input);
 };
 
 

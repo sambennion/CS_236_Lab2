@@ -4,10 +4,17 @@
 
 #ifndef CS236_LAB1_UNDEFINEDAUTOMA_H
 #define CS236_LAB1_UNDEFINEDAUTOMA_H
+#include "Automaton.h"
 
+class UndefinedAutoma : public Automaton{
+public:
+    explicit UndefinedAutoma(TokenType type) : Automaton(type) { this->type = type;};
 
-class UndefinedAutoma {
+    int Start(const string &input);
 
+    int s0(const string &input);
+
+    bool isDoubleQuote(const string input);
 };
 
 

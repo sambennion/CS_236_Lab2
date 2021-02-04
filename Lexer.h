@@ -9,6 +9,8 @@
 #include "CommentAutoma.h"
 #include "Automaton.h"
 #include "StringAutoma.h"
+#include "IDAutoma.h"
+#include "UndefinedAutoma.h"
 #include <string>
 #include <vector>
 #include <cctype>
@@ -21,6 +23,10 @@ public:
 Lexer() {
     //this->tokens = new std::vector<Token*>();
     //this->automata = new std::vector<Automaton*>();
+    automata.push_back(new MatcherAutomaton(SCHEMES, "Schemes"));
+    automata.push_back(new MatcherAutomaton(FACTS, "Facts"));
+    automata.push_back(new MatcherAutomaton(RULES, "Rules"));
+    automata.push_back(new MatcherAutomaton(QUERIES, "Queries"));
     automata.push_back(new MatcherAutomaton(COMMA, ","));
     automata.push_back(new MatcherAutomaton(PERIOD, "."));
     automata.push_back(new MatcherAutomaton(COLON_DASH, ":-"));
@@ -28,7 +34,10 @@ Lexer() {
     automata.push_back(new MatcherAutomaton(Q_MARK, "?"));
     automata.push_back(new MatcherAutomaton(LEFT_PAREN, "("));
     automata.push_back(new MatcherAutomaton(RIGHT_PAREN, ")"));
-    automata.push_back(new StringAutoma(COLON, STRING));
+    automata.push_back(new StringAutoma(STRING));
+    automata.push_back(new CommentAutoma(COMMENT));
+    automata.push_back(new IDAutoma(ID));
+    automata.push_back(new UndefinedAutoma(UNDEFINED));
 // Add all of the Automaton instances
 //automata.push_back(new ColonAutomaton());
 //automata.push_back(new ColonDashAutomaton());

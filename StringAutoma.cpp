@@ -8,7 +8,7 @@ int StringAutoma::Start(const string &input) {
    // bool isMatch = true;
     inputRead = 0;
 
-    if(input.at(0) == '"'){
+    if(input.at(0) == '\''){
         inputRead++;
         return s0(input);
     }
@@ -17,17 +17,30 @@ int StringAutoma::Start(const string &input) {
     }
 }
 int StringAutoma::s0(const string &input){
-    while(input.at(inputRead) != '"' && inputRead < input.length()){
-        inputRead++;
-        if(input.at(inputRead) == '\n'){
+
+    while((input.at(inputRead) != '\'' && inputRead < input.length()) || isDoubleQuote(input)) {
+        if (input.at(inputRead) == '\n') {
             this->newLines++;
         }
+        if (isDoubleQuote((input))) {
+            inputRead++;
+        }
+        inputRead++;
+        if(inputRead == input.length()){
+            return 0;
+        }
     }
-    if(input.at(inputRead) == '"'){
+    if(input.at(inputRead) == '\''){
         inputRead++;
         return inputRead;
     }
-    else{
-        return 0;
+    return 0;
+}
+bool StringAutoma::isDoubleQuote(const string input){
+    if(input.size() > inputRead+2){
+        if(input.at(inputRead) == '\'' && input.at(inputRead+1) == '\''){
+            return true;
+        }
     }
+    return false;
 }
