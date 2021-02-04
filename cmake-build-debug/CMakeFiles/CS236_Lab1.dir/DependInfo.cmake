@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/samuelbennion/CLionProjects/CS236_Lab1/StringAutoma.cpp" "/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles/CS236_Lab1.dir/StringAutoma.cpp.o"
   "/Users/samuelbennion/CLionProjects/CS236_Lab1/Token.cpp" "/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles/CS236_Lab1.dir/Token.cpp.o"
   "/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.cpp" "/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o"
+  "/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedCommentAutoma.cpp" "/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o"
   "/Users/samuelbennion/CLionProjects/CS236_Lab1/main.cpp" "/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles/CS236_Lab1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

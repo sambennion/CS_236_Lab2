@@ -1,10 +1,9 @@
 //
-// Created by Samuel Bennion on 2/1/21.
+// Created by Samuel Bennion on 2/3/21.
 //
 
-#include "CommentAutoma.h"
-
-int CommentAutoma::Start(const string &input) {
+#include "UndefinedCommentAutoma.h"
+int UndefinedCommentAutoma::Start(const string &input) {
     inputRead = 0;
     if (input.at(0) == '#'){
         inputRead++;
@@ -12,21 +11,12 @@ int CommentAutoma::Start(const string &input) {
             inputRead++;
             return s1(input);
         }
-        return s0(input);
+        return 0;
     }
     return 0;
 }
 
-int CommentAutoma::s0(const string &input) {
-    while (input.at(inputRead) != '\n'){
-        inputRead++;
-        if(inputRead == input.size()) {
-            return inputRead;
-        }
-    }
-    return inputRead;
-}
-int CommentAutoma::s1(const string &input){
+int UndefinedCommentAutoma::s1(const string &input){
     while(input.at(inputRead) != '|' && input.at(inputRead+1) != '#' && inputRead < input.length()){
         if(input.at(inputRead) == '\n'){
             this->newLines++;
@@ -36,12 +26,12 @@ int CommentAutoma::s1(const string &input){
     if (input.at(inputRead) == '|'){
         inputRead++;
         if(inputRead = input.size()){
-            return 0;
+            return inputRead;
         }
         if(input.at(inputRead) == '#'){
             inputRead++;
-            return inputRead;
+            return 0;
         }
     }
-    return 0;
+    return inputRead;
 }

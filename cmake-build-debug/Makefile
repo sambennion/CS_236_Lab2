@@ -386,6 +386,33 @@ UndefinedAutoma.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.s
 .PHONY : UndefinedAutoma.cpp.s
 
+UndefinedCommentAutoma.o: UndefinedCommentAutoma.cpp.o
+
+.PHONY : UndefinedCommentAutoma.o
+
+# target to build an object file
+UndefinedCommentAutoma.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o
+.PHONY : UndefinedCommentAutoma.cpp.o
+
+UndefinedCommentAutoma.i: UndefinedCommentAutoma.cpp.i
+
+.PHONY : UndefinedCommentAutoma.i
+
+# target to preprocess a source file
+UndefinedCommentAutoma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.i
+.PHONY : UndefinedCommentAutoma.cpp.i
+
+UndefinedCommentAutoma.s: UndefinedCommentAutoma.cpp.s
+
+.PHONY : UndefinedCommentAutoma.s
+
+# target to generate assembly for a file
+UndefinedCommentAutoma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.s
+.PHONY : UndefinedCommentAutoma.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -449,6 +476,9 @@ help:
 	@echo "... UndefinedAutoma.o"
 	@echo "... UndefinedAutoma.i"
 	@echo "... UndefinedAutoma.s"
+	@echo "... UndefinedCommentAutoma.o"
+	@echo "... UndefinedCommentAutoma.i"
+	@echo "... UndefinedCommentAutoma.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CS236_Lab1.dir/StringAutoma.cpp.o"
   "CMakeFiles/CS236_Lab1.dir/Token.cpp.o"
   "CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o"
+  "CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o"
   "CMakeFiles/CS236_Lab1.dir/main.cpp.o"
   "CS236_Lab1"
   "CS236_Lab1.pdb"

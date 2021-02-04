@@ -27,6 +27,7 @@ CMakeFiles/CS236_Lab1.dir/Lexer.cpp.o: ../MatcherAutomaton.h
 CMakeFiles/CS236_Lab1.dir/Lexer.cpp.o: ../StringAutoma.h
 CMakeFiles/CS236_Lab1.dir/Lexer.cpp.o: ../Token.h
 CMakeFiles/CS236_Lab1.dir/Lexer.cpp.o: ../UndefinedAutoma.h
+CMakeFiles/CS236_Lab1.dir/Lexer.cpp.o: ../UndefinedCommentAutoma.h
 
 CMakeFiles/CS236_Lab1.dir/MatcherAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/CS236_Lab1.dir/MatcherAutomaton.cpp.o: ../MatcherAutomaton.cpp
@@ -46,6 +47,11 @@ CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o: ../Token.h
 CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o: ../UndefinedAutoma.cpp
 CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o: ../UndefinedAutoma.h
 
+CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o: ../Automaton.h
+CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o: ../Token.h
+CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o: ../UndefinedCommentAutoma.cpp
+CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o: ../UndefinedCommentAutoma.h
+
 CMakeFiles/CS236_Lab1.dir/main.cpp.o: ../Automaton.h
 CMakeFiles/CS236_Lab1.dir/main.cpp.o: ../CommentAutoma.h
 CMakeFiles/CS236_Lab1.dir/main.cpp.o: ../IDAutoma.h
@@ -54,5 +60,6 @@ CMakeFiles/CS236_Lab1.dir/main.cpp.o: ../MatcherAutomaton.h
 CMakeFiles/CS236_Lab1.dir/main.cpp.o: ../StringAutoma.h
 CMakeFiles/CS236_Lab1.dir/main.cpp.o: ../Token.h
 CMakeFiles/CS236_Lab1.dir/main.cpp.o: ../UndefinedAutoma.h
+CMakeFiles/CS236_Lab1.dir/main.cpp.o: ../UndefinedCommentAutoma.h
 CMakeFiles/CS236_Lab1.dir/main.cpp.o: ../main.cpp
 

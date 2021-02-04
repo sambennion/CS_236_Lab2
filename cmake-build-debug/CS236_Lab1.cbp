@@ -134,6 +134,12 @@
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.h">
 			<Option target="CS236_Lab1"/>
 		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedCommentAutoma.cpp">
+			<Option target="CS236_Lab1"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedCommentAutoma.h">
+			<Option target="CS236_Lab1"/>
+		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/main.cpp">
 			<Option target="CS236_Lab1"/>
 		</Unit>

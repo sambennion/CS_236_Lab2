@@ -2,8 +2,8 @@
 // Created by Samuel Bennion on 2/1/21.
 //
 
-#include "UndefinedAutoma.h"
-int UndefinedAutoma::Start(const string &input) {
+#include "UndefinedStringAutoma.h"
+int UndefinedStringAutoma::Start(const string &input) {
     // bool isMatch = true;
     inputRead = 0;
     this->newLines = 0;
@@ -15,7 +15,7 @@ int UndefinedAutoma::Start(const string &input) {
         return 0;
     }
 }
-int UndefinedAutoma::s0(const string &input){
+int UndefinedStringAutoma::s0(const string &input){
 
     while((input.at(inputRead) != '\'' && inputRead < input.length()) || isDoubleQuote(input)) {
         if (input.at(inputRead) == '\n') {
@@ -37,7 +37,7 @@ int UndefinedAutoma::s0(const string &input){
     }
     return 0;
 }
-bool UndefinedAutoma::isDoubleQuote(const string input){
+bool UndefinedStringAutoma::isDoubleQuote(const string input){
     if(input.size() > inputRead+2){
         if(input.at(inputRead) == '\'' && input.at(inputRead+1) == '\''){
             return true;

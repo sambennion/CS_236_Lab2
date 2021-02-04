@@ -10,7 +10,8 @@
 #include "Automaton.h"
 #include "StringAutoma.h"
 #include "IDAutoma.h"
-#include "UndefinedAutoma.h"
+#include "UndefinedStringAutoma.h"
+#include "UndefinedCommentAutoma.h"
 #include <string>
 #include <vector>
 #include <cctype>
@@ -37,7 +38,8 @@ Lexer() {
     automata.push_back(new StringAutoma(STRING));
     automata.push_back(new CommentAutoma(COMMENT));
     automata.push_back(new IDAutoma(ID));
-    automata.push_back(new UndefinedAutoma(UNDEFINED));
+    automata.push_back(new UndefinedStringAutoma(UNDEFINED));
+    automata.push_back(new UndefinedCommentAutoma(UNDEFINED));
 // Add all of the Automaton instances
 //automata.push_back(new ColonAutomaton());
 //automata.push_back(new ColonDashAutomaton());
