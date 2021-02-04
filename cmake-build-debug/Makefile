@@ -143,33 +143,6 @@ CS236_Lab1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/build
 .PHONY : CS236_Lab1/fast
 
-Automaton.o: Automaton.cpp.o
-
-.PHONY : Automaton.o
-
-# target to build an object file
-Automaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/Automaton.cpp.o
-.PHONY : Automaton.cpp.o
-
-Automaton.i: Automaton.cpp.i
-
-.PHONY : Automaton.i
-
-# target to preprocess a source file
-Automaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/Automaton.cpp.i
-.PHONY : Automaton.cpp.i
-
-Automaton.s: Automaton.cpp.s
-
-.PHONY : Automaton.s
-
-# target to generate assembly for a file
-Automaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/Automaton.cpp.s
-.PHONY : Automaton.cpp.s
-
 CommentAutoma.o: CommentAutoma.cpp.o
 
 .PHONY : CommentAutoma.o
@@ -196,33 +169,6 @@ CommentAutoma.s: CommentAutoma.cpp.s
 CommentAutoma.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/CommentAutoma.cpp.s
 .PHONY : CommentAutoma.cpp.s
-
-EOFAutoma.o: EOFAutoma.cpp.o
-
-.PHONY : EOFAutoma.o
-
-# target to build an object file
-EOFAutoma.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.o
-.PHONY : EOFAutoma.cpp.o
-
-EOFAutoma.i: EOFAutoma.cpp.i
-
-.PHONY : EOFAutoma.i
-
-# target to preprocess a source file
-EOFAutoma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.i
-.PHONY : EOFAutoma.cpp.i
-
-EOFAutoma.s: EOFAutoma.cpp.s
-
-.PHONY : EOFAutoma.s
-
-# target to generate assembly for a file
-EOFAutoma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.s
-.PHONY : EOFAutoma.cpp.s
 
 IDAutoma.o: IDAutoma.cpp.o
 
@@ -359,33 +305,6 @@ Token.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/Token.cpp.s
 .PHONY : Token.cpp.s
 
-UndefinedAutoma.o: UndefinedAutoma.cpp.o
-
-.PHONY : UndefinedAutoma.o
-
-# target to build an object file
-UndefinedAutoma.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o
-.PHONY : UndefinedAutoma.cpp.o
-
-UndefinedAutoma.i: UndefinedAutoma.cpp.i
-
-.PHONY : UndefinedAutoma.i
-
-# target to preprocess a source file
-UndefinedAutoma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.i
-.PHONY : UndefinedAutoma.cpp.i
-
-UndefinedAutoma.s: UndefinedAutoma.cpp.s
-
-.PHONY : UndefinedAutoma.s
-
-# target to generate assembly for a file
-UndefinedAutoma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.s
-.PHONY : UndefinedAutoma.cpp.s
-
 UndefinedCommentAutoma.o: UndefinedCommentAutoma.cpp.o
 
 .PHONY : UndefinedCommentAutoma.o
@@ -412,6 +331,33 @@ UndefinedCommentAutoma.s: UndefinedCommentAutoma.cpp.s
 UndefinedCommentAutoma.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.s
 .PHONY : UndefinedCommentAutoma.cpp.s
+
+UndefinedStringAutoma.o: UndefinedStringAutoma.cpp.o
+
+.PHONY : UndefinedStringAutoma.o
+
+# target to build an object file
+UndefinedStringAutoma.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.o
+.PHONY : UndefinedStringAutoma.cpp.o
+
+UndefinedStringAutoma.i: UndefinedStringAutoma.cpp.i
+
+.PHONY : UndefinedStringAutoma.i
+
+# target to preprocess a source file
+UndefinedStringAutoma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.i
+.PHONY : UndefinedStringAutoma.cpp.i
+
+UndefinedStringAutoma.s: UndefinedStringAutoma.cpp.s
+
+.PHONY : UndefinedStringAutoma.s
+
+# target to generate assembly for a file
+UndefinedStringAutoma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.s
+.PHONY : UndefinedStringAutoma.cpp.s
 
 main.o: main.cpp.o
 
@@ -449,15 +395,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CS236_Lab1"
-	@echo "... Automaton.o"
-	@echo "... Automaton.i"
-	@echo "... Automaton.s"
 	@echo "... CommentAutoma.o"
 	@echo "... CommentAutoma.i"
 	@echo "... CommentAutoma.s"
-	@echo "... EOFAutoma.o"
-	@echo "... EOFAutoma.i"
-	@echo "... EOFAutoma.s"
 	@echo "... IDAutoma.o"
 	@echo "... IDAutoma.i"
 	@echo "... IDAutoma.s"
@@ -473,12 +413,12 @@ help:
 	@echo "... Token.o"
 	@echo "... Token.i"
 	@echo "... Token.s"
-	@echo "... UndefinedAutoma.o"
-	@echo "... UndefinedAutoma.i"
-	@echo "... UndefinedAutoma.s"
 	@echo "... UndefinedCommentAutoma.o"
 	@echo "... UndefinedCommentAutoma.i"
 	@echo "... UndefinedCommentAutoma.s"
+	@echo "... UndefinedStringAutoma.o"
+	@echo "... UndefinedStringAutoma.i"
+	@echo "... UndefinedStringAutoma.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

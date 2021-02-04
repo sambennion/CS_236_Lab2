@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.cpp">
-			<Option target="CS236_Lab1"/>
-		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.h">
 			<Option target="CS236_Lab1"/>
 		</Unit>
@@ -90,12 +87,6 @@
 			<Option target="CS236_Lab1"/>
 		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/CommentAutoma.h">
-			<Option target="CS236_Lab1"/>
-		</Unit>
-		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/EOFAutoma.cpp">
-			<Option target="CS236_Lab1"/>
-		</Unit>
-		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/EOFAutoma.h">
 			<Option target="CS236_Lab1"/>
 		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/IDAutoma.cpp">
@@ -128,16 +119,16 @@
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/Token.h">
 			<Option target="CS236_Lab1"/>
 		</Unit>
-		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.cpp">
-			<Option target="CS236_Lab1"/>
-		</Unit>
-		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.h">
-			<Option target="CS236_Lab1"/>
-		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedCommentAutoma.cpp">
 			<Option target="CS236_Lab1"/>
 		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedCommentAutoma.h">
+			<Option target="CS236_Lab1"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedStringAutoma.cpp">
+			<Option target="CS236_Lab1"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedStringAutoma.h">
 			<Option target="CS236_Lab1"/>
 		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS236_Lab1/main.cpp">

@@ -7,7 +7,7 @@
 int StringAutoma::Start(const string &input) {
    // bool isMatch = true;
     inputRead = 0;
-
+    this->newLines = 0;
     if(input.at(0) == '\''){
         inputRead++;
         return s0(input);

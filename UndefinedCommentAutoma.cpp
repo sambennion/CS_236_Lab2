@@ -5,6 +5,7 @@
 #include "UndefinedCommentAutoma.h"
 int UndefinedCommentAutoma::Start(const string &input) {
     inputRead = 0;
+    this->newLines = 0;
     if (input.at(0) == '#'){
         inputRead++;
         if(input.at(inputRead) == '|'){
@@ -17,7 +18,7 @@ int UndefinedCommentAutoma::Start(const string &input) {
 }
 
 int UndefinedCommentAutoma::s1(const string &input){
-    while(input.at(inputRead) != '|' && input.at(inputRead+1) != '#' && inputRead < (int)input.length()){
+    while((input.at(inputRead) != '|' && input.at(inputRead+1) != '#') && inputRead < (int)input.length()){
         if(input.at(inputRead) == '\n'){
             this->newLines++;
         }

@@ -6,6 +6,7 @@
 
 int CommentAutoma::Start(const string &input) {
     inputRead = 0;
+    this->newLines = 0;
     if (input.at(0) == '#'){
         inputRead++;
         if(input.at(inputRead) == '|'){
@@ -27,7 +28,7 @@ int CommentAutoma::s0(const string &input) {
     return inputRead;
 }
 int CommentAutoma::s1(const string &input){
-    while(input.at(inputRead) != '|' && input.at(inputRead+1) != '#' && inputRead < (int)input.length()){
+    while((input.at(inputRead) != '|' && input.at(inputRead+1) != '#' ) && inputRead < (int)input.length()) {
         if(input.at(inputRead) == '\n'){
             this->newLines++;
         }
@@ -38,10 +39,20 @@ int CommentAutoma::s1(const string &input){
         if(inputRead == (int)input.size()){
             return 0;
         }
-        if(input.at(inputRead) == '#'){
+        else if(input.at(inputRead) == '#') {
             inputRead++;
             return inputRead;
         }
+    }
+    else if(input.at(inputRead) != '|'){
+        if(inputRead == (int)input.size()){
+            return 0;
+        }
+        if(input.at(inputRead) == '\n'){
+            this->newLines++;
+        }
+        inputRead++;
+        return s1(input);
     }
     return 0;
 }

@@ -60,5 +60,5 @@ void Lexer::printTokens() {
     for(int i = 0; i < (int)tokens.size(); i++){
         cout << tokens.at(i)->toString() << endl;
     }
-    cout << "Total Tokens = " << (int)tokens.size() << endl;
+    cout << "Total Tokens = " << (int)tokens.size();
 }

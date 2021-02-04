@@ -168,48 +168,22 @@ CMakeFiles/CS236_Lab1.dir/CommentAutoma.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236_Lab1.dir/CommentAutoma.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS236_Lab1/CommentAutoma.cpp -o CMakeFiles/CS236_Lab1.dir/CommentAutoma.cpp.s
 
-CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o: CMakeFiles/CS236_Lab1.dir/flags.make
-CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o: ../UndefinedAutoma.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o -c /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.cpp
+CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.o: CMakeFiles/CS236_Lab1.dir/flags.make
+CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.o: ../UndefinedStringAutoma.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.o -c /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedStringAutoma.cpp
 
-CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.cpp > CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.i
+CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedStringAutoma.cpp > CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.i
 
-CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedAutoma.cpp -o CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.s
-
-CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.o: CMakeFiles/CS236_Lab1.dir/flags.make
-CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.o: ../EOFAutoma.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.o -c /Users/samuelbennion/CLionProjects/CS236_Lab1/EOFAutoma.cpp
-
-CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS236_Lab1/EOFAutoma.cpp > CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.i
-
-CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS236_Lab1/EOFAutoma.cpp -o CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.s
-
-CMakeFiles/CS236_Lab1.dir/Automaton.cpp.o: CMakeFiles/CS236_Lab1.dir/flags.make
-CMakeFiles/CS236_Lab1.dir/Automaton.cpp.o: ../Automaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CS236_Lab1.dir/Automaton.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS236_Lab1.dir/Automaton.cpp.o -c /Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.cpp
-
-CMakeFiles/CS236_Lab1.dir/Automaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS236_Lab1.dir/Automaton.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.cpp > CMakeFiles/CS236_Lab1.dir/Automaton.cpp.i
-
-CMakeFiles/CS236_Lab1.dir/Automaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236_Lab1.dir/Automaton.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.cpp -o CMakeFiles/CS236_Lab1.dir/Automaton.cpp.s
+CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedStringAutoma.cpp -o CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.s
 
 CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o: CMakeFiles/CS236_Lab1.dir/flags.make
 CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o: ../UndefinedCommentAutoma.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o -c /Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedCommentAutoma.cpp
 
 CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.i: cmake_force
@@ -229,9 +203,7 @@ CS236_Lab1_OBJECTS = \
 "CMakeFiles/CS236_Lab1.dir/IDAutoma.cpp.o" \
 "CMakeFiles/CS236_Lab1.dir/StringAutoma.cpp.o" \
 "CMakeFiles/CS236_Lab1.dir/CommentAutoma.cpp.o" \
-"CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o" \
-"CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.o" \
-"CMakeFiles/CS236_Lab1.dir/Automaton.cpp.o" \
+"CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.o" \
 "CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o"
 
 # External object files for target CS236_Lab1
@@ -244,13 +216,11 @@ CS236_Lab1: CMakeFiles/CS236_Lab1.dir/Token.cpp.o
 CS236_Lab1: CMakeFiles/CS236_Lab1.dir/IDAutoma.cpp.o
 CS236_Lab1: CMakeFiles/CS236_Lab1.dir/StringAutoma.cpp.o
 CS236_Lab1: CMakeFiles/CS236_Lab1.dir/CommentAutoma.cpp.o
-CS236_Lab1: CMakeFiles/CS236_Lab1.dir/UndefinedAutoma.cpp.o
-CS236_Lab1: CMakeFiles/CS236_Lab1.dir/EOFAutoma.cpp.o
-CS236_Lab1: CMakeFiles/CS236_Lab1.dir/Automaton.cpp.o
+CS236_Lab1: CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.o
 CS236_Lab1: CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o
 CS236_Lab1: CMakeFiles/CS236_Lab1.dir/build.make
 CS236_Lab1: CMakeFiles/CS236_Lab1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable CS236_Lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable CS236_Lab1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS236_Lab1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
