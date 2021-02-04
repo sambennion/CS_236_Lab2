@@ -35,7 +35,7 @@ int CommentAutoma::s1(const string &input){
     }
     if (input.at(inputRead) == '|'){
         inputRead++;
-        if(inputRead = input.size()){
+        if(inputRead == input.size()){
             return 0;
         }
         if(input.at(inputRead) == '#'){
