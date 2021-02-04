@@ -27,7 +27,7 @@ int CommentAutoma::s0(const string &input) {
     return inputRead;
 }
 int CommentAutoma::s1(const string &input){
-    while(input.at(inputRead) != '|' && input.at(inputRead+1) != '#' && inputRead < input.length()){
+    while(input.at(inputRead) != '|' && input.at(inputRead+1) != '#' && inputRead < (int)input.length()){
         if(input.at(inputRead) == '\n'){
             this->newLines++;
         }
