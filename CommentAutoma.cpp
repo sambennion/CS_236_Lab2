@@ -28,18 +28,18 @@ int CommentAutoma::s0(const string &input) {
     return inputRead;
 }
 int CommentAutoma::s1(const string &input){
-    while((input.at(inputRead) != '|' && input.at(inputRead+1) != '#' ) && inputRead < (int)input.length()) {
+    while(input.at(inputRead) != '|' && inputRead < (int)input.size()) {
         if(input.at(inputRead) == '\n'){
             this->newLines++;
         }
         inputRead++;
-    }
-    if (input.at(inputRead) == '|'){
-        inputRead++;
         if(inputRead == (int)input.size()){
             return 0;
         }
-        else if(input.at(inputRead) == '#') {
+    }
+    if (input.at(inputRead) == '|'){
+        inputRead++;
+        if(input.at(inputRead) == '#') {
             inputRead++;
             return inputRead;
         }

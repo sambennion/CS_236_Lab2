@@ -18,21 +18,40 @@ int UndefinedCommentAutoma::Start(const string &input) {
 }
 
 int UndefinedCommentAutoma::s1(const string &input){
-    while((input.at(inputRead) != '|' && input.at(inputRead+1) != '#') && inputRead < (int)input.length()){
+//    if(input.at(inputRead) == '\n'){
+//        this->newLines++;
+//        inputRead++;
+//    }
+    while(input.at(inputRead) != '|' && inputRead < (int)input.size()) {
         if(input.at(inputRead) == '\n'){
             this->newLines++;
         }
         inputRead++;
+        if(inputRead == (int)input.length()){
+            return inputRead;
+        }
     }
     if (input.at(inputRead) == '|'){
         inputRead++;
-        if(inputRead == (int)input.size()){
-            return inputRead;
-        }
-        if(input.at(inputRead) == '#'){
+        if(input.at(inputRead) == '#') {
             inputRead++;
             return 0;
         }
+        if(input.at(inputRead) == '\n'){
+            this->newLines++;
+        }
+        inputRead++;
+        return s1(input);
     }
-    return inputRead;
+    else if(input.at(inputRead) != '|'){
+        if(inputRead == (int)input.size()){
+            return inputRead;
+        }
+        if(input.at(inputRead) == '\n'){
+            this->newLines++;
+        }
+        inputRead++;
+        return s1(input);
+    }
+    return 0;
 }

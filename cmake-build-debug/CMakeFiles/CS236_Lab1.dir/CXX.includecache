@@ -12,15 +12,15 @@ iostream
 Token.h
 /Users/samuelbennion/CLionProjects/CS236_Lab1/Token.h
 
-/Users/samuelbennion/CLionProjects/CS236_Lab1/CommentAutoma.cpp
-CommentAutoma.h
-/Users/samuelbennion/CLionProjects/CS236_Lab1/CommentAutoma.h
-
-/Users/samuelbennion/CLionProjects/CS236_Lab1/CommentAutoma.h
-Automaton.h
-/Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.h
-
 /Users/samuelbennion/CLionProjects/CS236_Lab1/Token.h
 iostream
 -
+
+/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedCommentAutoma.cpp
+UndefinedCommentAutoma.h
+/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedCommentAutoma.h
+
+/Users/samuelbennion/CLionProjects/CS236_Lab1/UndefinedCommentAutoma.h
+Automaton.h
+/Users/samuelbennion/CLionProjects/CS236_Lab1/Automaton.h
 

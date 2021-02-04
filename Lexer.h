@@ -35,6 +35,8 @@ Lexer() {
     automata.push_back(new MatcherAutomaton(Q_MARK, "?"));
     automata.push_back(new MatcherAutomaton(LEFT_PAREN, "("));
     automata.push_back(new MatcherAutomaton(RIGHT_PAREN, ")"));
+    automata.push_back(new MatcherAutomaton(ADD, "+" ));
+    automata.push_back(new MatcherAutomaton(MULTIPLY, "*" ));
     automata.push_back(new StringAutoma(STRING));
     automata.push_back(new CommentAutoma(COMMENT));
     automata.push_back(new IDAutoma(ID));

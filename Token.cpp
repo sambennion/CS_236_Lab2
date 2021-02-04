@@ -26,6 +26,12 @@ string Token::tokenToString(TokenType type) {
         case RIGHT_PAREN:
             return "RIGHT_PAREN";
             break;
+        case MULTIPLY:
+            return "MULTIPLY";
+            break;
+        case ADD:
+            return "ADD";
+            break;
         case COLON:
             return "COLON";
             break;
