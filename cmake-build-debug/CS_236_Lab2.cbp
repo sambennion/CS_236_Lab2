@@ -80,6 +80,54 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/CommentAutoma.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/CommentAutoma.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/IDAutoma.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/IDAutoma.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Lexer.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Lexer.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/MatcherAutomaton.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/MatcherAutomaton.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/StringAutoma.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/StringAutoma.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Token.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Token.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/UndefinedCommentAutoma.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/UndefinedCommentAutoma.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/UndefinedStringAutoma.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/UndefinedStringAutoma.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/main.cpp">
 			<Option target="CS_236_Lab2"/>
 		</Unit>

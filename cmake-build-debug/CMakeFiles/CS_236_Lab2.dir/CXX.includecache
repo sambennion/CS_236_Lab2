@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/samuelbennion/CLionProjects/CS_236_Lab2/main.cpp
+/Users/samuelbennion/CLionProjects/CS_236_Lab2/Token.cpp
+Token.h
+/Users/samuelbennion/CLionProjects/CS_236_Lab2/Token.h
+
+/Users/samuelbennion/CLionProjects/CS_236_Lab2/Token.h
 iostream
 -
 
