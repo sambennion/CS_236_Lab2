@@ -17,7 +17,7 @@ int UndefinedStringAutoma::Start(const string &input) {
 }
 int UndefinedStringAutoma::s0(const string &input){
 
-    while((input.at(inputRead) != '\'' && inputRead < (int)input.length()) || isDoubleQuote(input)) {
+    while((input.at(inputRead) != '\'' && inputRead < (int)input.size()) || isDoubleQuote(input)) {
         if (input.at(inputRead) == '\n') {
             this->newLines++;
             //cout << this->newLines << endl;
