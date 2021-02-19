@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/samuelbennion/CLionProjects/CS236_Lab1
+CMAKE_SOURCE_DIR = /Users/samuelbennion/CLionProjects/CS_236_Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles /Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles /Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,233 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CS236_Lab1
+# Target rules for targets named CS_236_Lab2
 
 # Build rule for target.
-CS236_Lab1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CS236_Lab1
-.PHONY : CS236_Lab1
+CS_236_Lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CS_236_Lab2
+.PHONY : CS_236_Lab2
 
 # fast build rule for target.
-CS236_Lab1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/build
-.PHONY : CS236_Lab1/fast
-
-CommentAutoma.o: CommentAutoma.cpp.o
-
-.PHONY : CommentAutoma.o
-
-# target to build an object file
-CommentAutoma.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/CommentAutoma.cpp.o
-.PHONY : CommentAutoma.cpp.o
-
-CommentAutoma.i: CommentAutoma.cpp.i
-
-.PHONY : CommentAutoma.i
-
-# target to preprocess a source file
-CommentAutoma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/CommentAutoma.cpp.i
-.PHONY : CommentAutoma.cpp.i
-
-CommentAutoma.s: CommentAutoma.cpp.s
-
-.PHONY : CommentAutoma.s
-
-# target to generate assembly for a file
-CommentAutoma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/CommentAutoma.cpp.s
-.PHONY : CommentAutoma.cpp.s
-
-IDAutoma.o: IDAutoma.cpp.o
-
-.PHONY : IDAutoma.o
-
-# target to build an object file
-IDAutoma.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/IDAutoma.cpp.o
-.PHONY : IDAutoma.cpp.o
-
-IDAutoma.i: IDAutoma.cpp.i
-
-.PHONY : IDAutoma.i
-
-# target to preprocess a source file
-IDAutoma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/IDAutoma.cpp.i
-.PHONY : IDAutoma.cpp.i
-
-IDAutoma.s: IDAutoma.cpp.s
-
-.PHONY : IDAutoma.s
-
-# target to generate assembly for a file
-IDAutoma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/IDAutoma.cpp.s
-.PHONY : IDAutoma.cpp.s
-
-Lexer.o: Lexer.cpp.o
-
-.PHONY : Lexer.o
-
-# target to build an object file
-Lexer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/Lexer.cpp.o
-.PHONY : Lexer.cpp.o
-
-Lexer.i: Lexer.cpp.i
-
-.PHONY : Lexer.i
-
-# target to preprocess a source file
-Lexer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/Lexer.cpp.i
-.PHONY : Lexer.cpp.i
-
-Lexer.s: Lexer.cpp.s
-
-.PHONY : Lexer.s
-
-# target to generate assembly for a file
-Lexer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/Lexer.cpp.s
-.PHONY : Lexer.cpp.s
-
-MatcherAutomaton.o: MatcherAutomaton.cpp.o
-
-.PHONY : MatcherAutomaton.o
-
-# target to build an object file
-MatcherAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/MatcherAutomaton.cpp.o
-.PHONY : MatcherAutomaton.cpp.o
-
-MatcherAutomaton.i: MatcherAutomaton.cpp.i
-
-.PHONY : MatcherAutomaton.i
-
-# target to preprocess a source file
-MatcherAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/MatcherAutomaton.cpp.i
-.PHONY : MatcherAutomaton.cpp.i
-
-MatcherAutomaton.s: MatcherAutomaton.cpp.s
-
-.PHONY : MatcherAutomaton.s
-
-# target to generate assembly for a file
-MatcherAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/MatcherAutomaton.cpp.s
-.PHONY : MatcherAutomaton.cpp.s
-
-StringAutoma.o: StringAutoma.cpp.o
-
-.PHONY : StringAutoma.o
-
-# target to build an object file
-StringAutoma.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/StringAutoma.cpp.o
-.PHONY : StringAutoma.cpp.o
-
-StringAutoma.i: StringAutoma.cpp.i
-
-.PHONY : StringAutoma.i
-
-# target to preprocess a source file
-StringAutoma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/StringAutoma.cpp.i
-.PHONY : StringAutoma.cpp.i
-
-StringAutoma.s: StringAutoma.cpp.s
-
-.PHONY : StringAutoma.s
-
-# target to generate assembly for a file
-StringAutoma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/StringAutoma.cpp.s
-.PHONY : StringAutoma.cpp.s
-
-Token.o: Token.cpp.o
-
-.PHONY : Token.o
-
-# target to build an object file
-Token.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/Token.cpp.o
-.PHONY : Token.cpp.o
-
-Token.i: Token.cpp.i
-
-.PHONY : Token.i
-
-# target to preprocess a source file
-Token.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/Token.cpp.i
-.PHONY : Token.cpp.i
-
-Token.s: Token.cpp.s
-
-.PHONY : Token.s
-
-# target to generate assembly for a file
-Token.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/Token.cpp.s
-.PHONY : Token.cpp.s
-
-UndefinedCommentAutoma.o: UndefinedCommentAutoma.cpp.o
-
-.PHONY : UndefinedCommentAutoma.o
-
-# target to build an object file
-UndefinedCommentAutoma.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.o
-.PHONY : UndefinedCommentAutoma.cpp.o
-
-UndefinedCommentAutoma.i: UndefinedCommentAutoma.cpp.i
-
-.PHONY : UndefinedCommentAutoma.i
-
-# target to preprocess a source file
-UndefinedCommentAutoma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.i
-.PHONY : UndefinedCommentAutoma.cpp.i
-
-UndefinedCommentAutoma.s: UndefinedCommentAutoma.cpp.s
-
-.PHONY : UndefinedCommentAutoma.s
-
-# target to generate assembly for a file
-UndefinedCommentAutoma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedCommentAutoma.cpp.s
-.PHONY : UndefinedCommentAutoma.cpp.s
-
-UndefinedStringAutoma.o: UndefinedStringAutoma.cpp.o
-
-.PHONY : UndefinedStringAutoma.o
-
-# target to build an object file
-UndefinedStringAutoma.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.o
-.PHONY : UndefinedStringAutoma.cpp.o
-
-UndefinedStringAutoma.i: UndefinedStringAutoma.cpp.i
-
-.PHONY : UndefinedStringAutoma.i
-
-# target to preprocess a source file
-UndefinedStringAutoma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.i
-.PHONY : UndefinedStringAutoma.cpp.i
-
-UndefinedStringAutoma.s: UndefinedStringAutoma.cpp.s
-
-.PHONY : UndefinedStringAutoma.s
-
-# target to generate assembly for a file
-UndefinedStringAutoma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/UndefinedStringAutoma.cpp.s
-.PHONY : UndefinedStringAutoma.cpp.s
+CS_236_Lab2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_236_Lab2.dir/build.make CMakeFiles/CS_236_Lab2.dir/build
+.PHONY : CS_236_Lab2/fast
 
 main.o: main.cpp.o
 
@@ -365,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_236_Lab2.dir/build.make CMakeFiles/CS_236_Lab2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -374,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_236_Lab2.dir/build.make CMakeFiles/CS_236_Lab2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -383,7 +167,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_236_Lab2.dir/build.make CMakeFiles/CS_236_Lab2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -394,31 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CS236_Lab1"
-	@echo "... CommentAutoma.o"
-	@echo "... CommentAutoma.i"
-	@echo "... CommentAutoma.s"
-	@echo "... IDAutoma.o"
-	@echo "... IDAutoma.i"
-	@echo "... IDAutoma.s"
-	@echo "... Lexer.o"
-	@echo "... Lexer.i"
-	@echo "... Lexer.s"
-	@echo "... MatcherAutomaton.o"
-	@echo "... MatcherAutomaton.i"
-	@echo "... MatcherAutomaton.s"
-	@echo "... StringAutoma.o"
-	@echo "... StringAutoma.i"
-	@echo "... StringAutoma.s"
-	@echo "... Token.o"
-	@echo "... Token.i"
-	@echo "... Token.s"
-	@echo "... UndefinedCommentAutoma.o"
-	@echo "... UndefinedCommentAutoma.i"
-	@echo "... UndefinedCommentAutoma.s"
-	@echo "... UndefinedStringAutoma.o"
-	@echo "... UndefinedStringAutoma.i"
-	@echo "... UndefinedStringAutoma.s"
+	@echo "... CS_236_Lab2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/samuelbennion/CLionProjects/CS236_Lab1
+# Install script for directory: /Users/samuelbennion/CLionProjects/CS_236_Lab2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

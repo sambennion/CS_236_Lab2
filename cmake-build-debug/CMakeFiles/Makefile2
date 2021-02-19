@@ -64,16 +64,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/samuelbennion/CLionProjects/CS236_Lab1
+CMAKE_SOURCE_DIR = /Users/samuelbennion/CLionProjects/CS_236_Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CS236_Lab1.dir/all
+all: CMakeFiles/CS_236_Lab2.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CS236_Lab1.dir/clean
+clean: CMakeFiles/CS_236_Lab2.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CS236_Lab1.dir
+# Target rules for target CMakeFiles/CS_236_Lab2.dir
 
 # All Build rule for target.
-CMakeFiles/CS236_Lab1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target CS236_Lab1"
-.PHONY : CMakeFiles/CS236_Lab1.dir/all
+CMakeFiles/CS_236_Lab2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_236_Lab2.dir/build.make CMakeFiles/CS_236_Lab2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_236_Lab2.dir/build.make CMakeFiles/CS_236_Lab2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target CS_236_Lab2"
+.PHONY : CMakeFiles/CS_236_Lab2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CS236_Lab1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CS236_Lab1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelbennion/CLionProjects/CS236_Lab1/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/CS236_Lab1.dir/rule
+CMakeFiles/CS_236_Lab2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CS_236_Lab2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CS_236_Lab2.dir/rule
 
 # Convenience name for target.
-CS236_Lab1: CMakeFiles/CS236_Lab1.dir/rule
+CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/rule
 
-.PHONY : CS236_Lab1
+.PHONY : CS_236_Lab2
 
 # clean rule for target.
-CMakeFiles/CS236_Lab1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS236_Lab1.dir/build.make CMakeFiles/CS236_Lab1.dir/clean
-.PHONY : CMakeFiles/CS236_Lab1.dir/clean
+CMakeFiles/CS_236_Lab2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS_236_Lab2.dir/build.make CMakeFiles/CS_236_Lab2.dir/clean
+.PHONY : CMakeFiles/CS_236_Lab2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
