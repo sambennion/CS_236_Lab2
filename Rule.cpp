@@ -6,7 +6,7 @@
 
 
 string Rule::toString() {
-    for(int i = 0; i < this->predicateList.size(); i++){
+    for(unsigned i = 0; i < this->predicateList.size(); i++){
         stringstream ss;
         ss << predicate->toString() << " :- ";
         for (unsigned i=0; i < predicateList.size(); i++) {
