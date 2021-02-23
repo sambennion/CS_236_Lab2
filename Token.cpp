@@ -70,3 +70,15 @@ string Token::tokenToString(TokenType type) {
             break;
     }
 }
+
+string Token::getTokenType() {
+    return this->tokenToString(type);
+}
+
+string Token::getData() {
+    return this->data;
+}
+
+int Token::getLineNum() {
+    return this->lineNum;
+}

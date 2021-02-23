@@ -86,6 +86,12 @@
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/CommentAutoma.h">
 			<Option target="CS_236_Lab2"/>
 		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/DatalogProgram.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/DatalogProgram.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/IDAutoma.cpp">
 			<Option target="CS_236_Lab2"/>
 		</Unit>
@@ -102,6 +108,30 @@
 			<Option target="CS_236_Lab2"/>
 		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/MatcherAutomaton.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Parameter.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Parameter.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Parser.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Parser.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Predicate.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Predicate.h">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Rule.cpp">
+			<Option target="CS_236_Lab2"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/Rule.h">
 			<Option target="CS_236_Lab2"/>
 		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab2/StringAutoma.cpp">

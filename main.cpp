@@ -3,6 +3,7 @@
 #include <fstream>
 #include <string>
 #include "Lexer.h"
+#include "Parser.h"
 int main(int argc, char* argv[]) {
     //cout << argv[1] << endl;
     std::ifstream inputFile;
@@ -16,7 +17,9 @@ int main(int argc, char* argv[]) {
 //        inputString += line + "\n";
 //    }
     Lexer *scanner = new Lexer();
+    Parser *parser = new Parser();
     scanner->Run(inputString);
-    scanner->printTokens();
+    //scanner->printTokens();
+    parser->Parse(scanner->getTokens());
     return 0;
 }

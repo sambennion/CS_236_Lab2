@@ -39,11 +39,13 @@ void Lexer::Run(std::string input) {
             newToken = maxAutomaton->CreateToken(input.substr(0, maxRead), lineNumber);
             lineNumber += maxAutomaton->NewLinesRead();
             /*
-            if(newToken->toString() != "COMMENT"){
+            if(newToken->tokenToString() != "COMMENT"){
                 tokens.push_back(newToken);
             }
              */
-            tokens.push_back(newToken);
+            if(newToken->toString().substr(1, 7) != "COMMENT"){
+                tokens.push_back(newToken);
+            }
         }
         // No automaton accepted input; create invalid token
         else {

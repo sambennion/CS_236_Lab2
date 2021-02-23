@@ -6,6 +6,13 @@ CMakeFiles/CS_236_Lab2.dir/CommentAutoma.cpp.o: ../CommentAutoma.cpp
 CMakeFiles/CS_236_Lab2.dir/CommentAutoma.cpp.o: ../CommentAutoma.h
 CMakeFiles/CS_236_Lab2.dir/CommentAutoma.cpp.o: ../Token.h
 
+CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
+CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o: ../DatalogProgram.h
+CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o: ../Parameter.h
+CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o: ../Predicate.h
+CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o: ../Rule.h
+CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o: ../Token.h
+
 CMakeFiles/CS_236_Lab2.dir/IDAutoma.cpp.o: ../Automaton.h
 CMakeFiles/CS_236_Lab2.dir/IDAutoma.cpp.o: ../IDAutoma.cpp
 CMakeFiles/CS_236_Lab2.dir/IDAutoma.cpp.o: ../IDAutoma.h
@@ -27,6 +34,29 @@ CMakeFiles/CS_236_Lab2.dir/MatcherAutomaton.cpp.o: ../MatcherAutomaton.cpp
 CMakeFiles/CS_236_Lab2.dir/MatcherAutomaton.cpp.o: ../MatcherAutomaton.h
 CMakeFiles/CS_236_Lab2.dir/MatcherAutomaton.cpp.o: ../Token.h
 
+CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.o: ../Parameter.cpp
+CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.o: ../Parameter.h
+CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.o: ../Token.h
+
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o: ../DatalogProgram.h
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o: ../Parameter.h
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o: ../Parser.cpp
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o: ../Parser.h
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o: ../Predicate.h
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o: ../Rule.h
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o: ../Token.h
+
+CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.o: ../Parameter.h
+CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.o: ../Predicate.cpp
+CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.o: ../Predicate.h
+CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.o: ../Token.h
+
+CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o: ../Parameter.h
+CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o: ../Predicate.h
+CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o: ../Rule.cpp
+CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o: ../Rule.h
+CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o: ../Token.h
+
 CMakeFiles/CS_236_Lab2.dir/StringAutoma.cpp.o: ../Automaton.h
 CMakeFiles/CS_236_Lab2.dir/StringAutoma.cpp.o: ../StringAutoma.cpp
 CMakeFiles/CS_236_Lab2.dir/StringAutoma.cpp.o: ../StringAutoma.h
@@ -45,5 +75,19 @@ CMakeFiles/CS_236_Lab2.dir/UndefinedStringAutoma.cpp.o: ../Token.h
 CMakeFiles/CS_236_Lab2.dir/UndefinedStringAutoma.cpp.o: ../UndefinedStringAutoma.cpp
 CMakeFiles/CS_236_Lab2.dir/UndefinedStringAutoma.cpp.o: ../UndefinedStringAutoma.h
 
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../Automaton.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../CommentAutoma.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../DatalogProgram.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../IDAutoma.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../Lexer.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../MatcherAutomaton.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../Parameter.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../Parser.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../Predicate.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../Rule.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../StringAutoma.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../Token.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../UndefinedCommentAutoma.h
+CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../UndefinedStringAutoma.h
 CMakeFiles/CS_236_Lab2.dir/main.cpp.o: ../main.cpp
 

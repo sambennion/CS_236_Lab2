@@ -194,6 +194,71 @@ CMakeFiles/CS_236_Lab2.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab2.dir/Token.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab2/Token.cpp -o CMakeFiles/CS_236_Lab2.dir/Token.cpp.s
 
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o: CMakeFiles/CS_236_Lab2.dir/flags.make
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o -c /Users/samuelbennion/CLionProjects/CS_236_Lab2/Parser.cpp
+
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_236_Lab2.dir/Parser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS_236_Lab2/Parser.cpp > CMakeFiles/CS_236_Lab2.dir/Parser.cpp.i
+
+CMakeFiles/CS_236_Lab2.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab2.dir/Parser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab2/Parser.cpp -o CMakeFiles/CS_236_Lab2.dir/Parser.cpp.s
+
+CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.o: CMakeFiles/CS_236_Lab2.dir/flags.make
+CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.o: ../Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.o -c /Users/samuelbennion/CLionProjects/CS_236_Lab2/Predicate.cpp
+
+CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS_236_Lab2/Predicate.cpp > CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.i
+
+CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab2/Predicate.cpp -o CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.s
+
+CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o: CMakeFiles/CS_236_Lab2.dir/flags.make
+CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o -c /Users/samuelbennion/CLionProjects/CS_236_Lab2/DatalogProgram.cpp
+
+CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS_236_Lab2/DatalogProgram.cpp > CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.i
+
+CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab2/DatalogProgram.cpp -o CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.s
+
+CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o: CMakeFiles/CS_236_Lab2.dir/flags.make
+CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o: ../Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o -c /Users/samuelbennion/CLionProjects/CS_236_Lab2/Rule.cpp
+
+CMakeFiles/CS_236_Lab2.dir/Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_236_Lab2.dir/Rule.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS_236_Lab2/Rule.cpp > CMakeFiles/CS_236_Lab2.dir/Rule.cpp.i
+
+CMakeFiles/CS_236_Lab2.dir/Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab2.dir/Rule.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab2/Rule.cpp -o CMakeFiles/CS_236_Lab2.dir/Rule.cpp.s
+
+CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.o: CMakeFiles/CS_236_Lab2.dir/flags.make
+CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.o: ../Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.o -c /Users/samuelbennion/CLionProjects/CS_236_Lab2/Parameter.cpp
+
+CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS_236_Lab2/Parameter.cpp > CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.i
+
+CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab2/Parameter.cpp -o CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.s
+
 # Object files for target CS_236_Lab2
 CS_236_Lab2_OBJECTS = \
 "CMakeFiles/CS_236_Lab2.dir/main.cpp.o" \
@@ -204,7 +269,12 @@ CS_236_Lab2_OBJECTS = \
 "CMakeFiles/CS_236_Lab2.dir/StringAutoma.cpp.o" \
 "CMakeFiles/CS_236_Lab2.dir/UndefinedCommentAutoma.cpp.o" \
 "CMakeFiles/CS_236_Lab2.dir/UndefinedStringAutoma.cpp.o" \
-"CMakeFiles/CS_236_Lab2.dir/Token.cpp.o"
+"CMakeFiles/CS_236_Lab2.dir/Token.cpp.o" \
+"CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o" \
+"CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.o" \
+"CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o" \
+"CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o" \
+"CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.o"
 
 # External object files for target CS_236_Lab2
 CS_236_Lab2_EXTERNAL_OBJECTS =
@@ -218,9 +288,14 @@ CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/StringAutoma.cpp.o
 CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/UndefinedCommentAutoma.cpp.o
 CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/UndefinedStringAutoma.cpp.o
 CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/Token.cpp.o
+CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/Parser.cpp.o
+CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/Predicate.cpp.o
+CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/DatalogProgram.cpp.o
+CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/Rule.cpp.o
+CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/Parameter.cpp.o
 CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/build.make
 CS_236_Lab2: CMakeFiles/CS_236_Lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable CS_236_Lab2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable CS_236_Lab2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS_236_Lab2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

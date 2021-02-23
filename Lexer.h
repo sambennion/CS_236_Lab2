@@ -48,5 +48,6 @@ Lexer() {
 };
 void Run(std::string input);
 void printTokens();
+    vector<Token*> getTokens(){return this->tokens;}
 };
 #endif //CS236_LAB1_LEXER_H

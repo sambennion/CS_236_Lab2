@@ -3,4 +3,4 @@ project(CS_236_Lab2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CS_236_Lab2 main.cpp CommentAutoma.cpp Lexer.cpp MatcherAutomaton.cpp IDAutoma.cpp StringAutoma.cpp UndefinedCommentAutoma.cpp UndefinedStringAutoma.cpp Token.cpp)
+add_executable(CS_236_Lab2 main.cpp CommentAutoma.cpp Lexer.cpp MatcherAutomaton.cpp IDAutoma.cpp StringAutoma.cpp UndefinedCommentAutoma.cpp UndefinedStringAutoma.cpp Token.cpp Parser.cpp Parser.h Predicate.cpp Predicate.h DatalogProgram.cpp DatalogProgram.h Rule.cpp Rule.h Parameter.cpp Parameter.h)

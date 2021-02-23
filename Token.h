@@ -21,6 +21,9 @@ public:
     }
     string tokenToString(TokenType type);
     string toString();
+    string getTokenType();
+    string getData();
+    int getLineNum();
 };
 
 
