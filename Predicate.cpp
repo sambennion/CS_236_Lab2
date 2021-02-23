@@ -7,7 +7,7 @@
 string Predicate::toString() {
     stringstream ss;
     ss << name << '(';
-    for (int i=0; i < parameters.size(); i++) {
+    for (unsigned i=0; i < parameters.size(); i++) {
         ss << parameters[i]->toString();
         if (i < parameters.size()-1)
             ss << ',';

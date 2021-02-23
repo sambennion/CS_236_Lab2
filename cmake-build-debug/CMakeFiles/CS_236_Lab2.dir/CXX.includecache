@@ -6,35 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/samuelbennion/CLionProjects/CS_236_Lab2/DatalogProgram.h
-Rule.h
-/Users/samuelbennion/CLionProjects/CS_236_Lab2/Rule.h
-set
--
-
 /Users/samuelbennion/CLionProjects/CS_236_Lab2/Parameter.h
 Token.h
 /Users/samuelbennion/CLionProjects/CS_236_Lab2/Token.h
 
-/Users/samuelbennion/CLionProjects/CS_236_Lab2/Parser.cpp
-Parser.h
-/Users/samuelbennion/CLionProjects/CS_236_Lab2/Parser.h
-
-/Users/samuelbennion/CLionProjects/CS_236_Lab2/Parser.h
-vector
--
-Token.h
-/Users/samuelbennion/CLionProjects/CS_236_Lab2/Token.h
+/Users/samuelbennion/CLionProjects/CS_236_Lab2/Predicate.cpp
+Predicate.h
+/Users/samuelbennion/CLionProjects/CS_236_Lab2/Predicate.h
 sstream
 -
-DatalogProgram.h
-/Users/samuelbennion/CLionProjects/CS_236_Lab2/DatalogProgram.h
 
 /Users/samuelbennion/CLionProjects/CS_236_Lab2/Predicate.h
 vector
 -
 Parameter.h
 /Users/samuelbennion/CLionProjects/CS_236_Lab2/Parameter.h
+
+/Users/samuelbennion/CLionProjects/CS_236_Lab2/Rule.cpp
+Rule.h
+/Users/samuelbennion/CLionProjects/CS_236_Lab2/Rule.h
 
 /Users/samuelbennion/CLionProjects/CS_236_Lab2/Rule.h
 Predicate.h

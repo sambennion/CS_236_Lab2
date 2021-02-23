@@ -9,7 +9,7 @@ string Rule::toString() {
     for(int i = 0; i < this->predicateList.size(); i++){
         stringstream ss;
         ss << predicate->toString() << " :- ";
-        for (int i=0; i < predicateList.size(); i++) {
+        for (unsigned i=0; i < predicateList.size(); i++) {
             ss << predicateList[i]->toString();
             if (i < predicateList.size()-1)
                 ss << ',';
